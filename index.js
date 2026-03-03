@@ -173,7 +173,7 @@ async function sendEmail(subject, content) {
         ${content.replace(/\n/g, "<br>")}
         </div>
     </div>
-    `,j
+    `,
   };
 
   await transporter.sendMail(mailOptions);
